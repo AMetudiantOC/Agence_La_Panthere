@@ -48,6 +48,10 @@ a:hover {
     padding: 100px 50px;
 }
 
+.bloc-portfolio {
+    padding: 50px 50px;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -91,7 +95,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -362,7 +365,17 @@ a:hover {
     z-index: 2;
 }
 
+.citation {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+.auteur {
+    font-size: 1.3em;
+}
+
 @media (min-width: 768px) {
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -443,6 +456,15 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.mg-link {
+    margin-top: 25px;
+}
+
+.card-container {
+    list-style: none;
+    margin: 0%;
 }
 
 .btn {
@@ -677,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -700,7 +722,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 350px;
     margin: auto auto auto auto;
 }
 
@@ -722,6 +747,10 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
+.bloc-position {
+    margin: 40px 80px 60px 80px;
+}
+
 h1 {
     color: #333333!important;
 }
@@ -737,15 +766,18 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .avatar {
@@ -753,8 +785,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
+    border-radius: 20px;
 }
 
 .bold-link {
@@ -818,11 +851,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -867,11 +900,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
+
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
@@ -1026,12 +1055,28 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .portfolio-row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .social {
+        display: block;
+        max-width: 350px;
+        margin: auto auto auto auto;
+    }
+
+    .spacing {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
