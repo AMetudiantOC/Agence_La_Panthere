@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ametudiantoc.github.io/Agence_La_Panthere/sitemap.xml
