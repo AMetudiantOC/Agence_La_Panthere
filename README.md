@@ -45,9 +45,13 @@ __Recommended :__ HTML / CSS
 
 * [BEM](https://css-tricks.com/bem-101/)
 
+## Results of the audit
+
+The results are available [here]()
+
 ## Test the project
 
-To test simply & quickly, please visit the online demo : [lapanther.alexandremagre.com](https://ametudiantoc.github.io/Agence_La_Panthere/)  
+To test simply & quickly, please visit the online demo : [lapanthere.alexandremagre.com](https://ametudiantoc.github.io/Agence_La_Panthere/)  
   
 Otherwise, clone the project  
 `git clone https://github.com/AMetudiantOC/Agence_La_Panthere`
