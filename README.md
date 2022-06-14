@@ -32,6 +32,16 @@ __Used :__ HTML / CSS / JS / PHP
 __Approved :__ HTML / CSS   
 __Recommended :__ HTML / CSS
 
+## Tools used
+
+* W3C HTML & CSS
+* Crawlability test on Seolyser
+* Speed test on GTmetrix
+* Duplicate content test on Siteliner
+* Keywords test with Alize.info
+* Accessibility test with Tanaguru
+* Outliner HTML5
+
 ## Constraints
 
 * Mobile-first approach: yes
