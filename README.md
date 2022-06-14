@@ -4,7 +4,7 @@ Fourth project of the "Web Developer" course on OpenClassroom. The objective is 
 
 You can find [the list of elements to implement here](https://developer.mozilla.org/fr/docs/Web/Accessibility/Mobile_accessibility_checklist)
 
-![image]()
+![image](https://raw.githubusercontent.com/AMetudiantOC/Agence_La_Panthere/main/img/Pres_projet.png)
 
 ## Goals
 
