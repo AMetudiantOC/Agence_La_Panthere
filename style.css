@@ -374,6 +374,11 @@ a:hover {
     font-size: 1.3em;
 }
 
+.image-resize-mode {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
 
     .site-navigation {
@@ -468,11 +473,16 @@ nav .caret {
 }
 
 .btn {
-    margin: 0 5px 5px 0;
+    margin: 0px 5px 0px 5px;
+}
+
+.btn-submit {
+    margin: 0px 5px 5px 0px;
+    border: 1px solid white;
 }
 
 .btn.pull-right {
-    margin: 0 0 5px 5px;
+    margin: 0px 0px 5px 5px;
 }
 
 .btn-d,
@@ -547,8 +557,7 @@ button {
     margin-top: 6px;
 }
 
-.showScrollTop {
-    font-size: 14px;
+.scrollToTop:hover {
     opacity: 1;
 }
 
@@ -682,6 +691,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    margin: 0px;
 }
 
 .hero-bloc-text-sub {
@@ -1059,6 +1069,10 @@ h4 {
     .portfolio-row {
         margin-bottom: 0px;
         margin-top: 0px;
+    }
+
+    .form-spacing {
+        margin-bottom: 40px;
     }
 }
 
