@@ -4,7 +4,7 @@ Fourth project of the "Web Developer" course on OpenClassroom. The objective is 
 
 You can find [the list of elements to implement here](https://developer.mozilla.org/fr/docs/Web/Accessibility/Mobile_accessibility_checklist)
 
-![image]()
+![image](https://raw.githubusercontent.com/AMetudiantOC/Agence_La_Panthere/main/img/Pres_projet.png)
 
 ## Goals
 
@@ -32,6 +32,16 @@ __Used :__ HTML / CSS / JS / PHP
 __Approved :__ HTML / CSS   
 __Recommended :__ HTML / CSS
 
+## Tools used
+
+* W3C HTML & CSS
+* Crawlability test on Seolyser
+* Speed test on GTmetrix
+* Duplicate content test on Siteliner
+* Keywords test with Alize.info
+* Accessibility test with Tanaguru
+* Outliner HTML5
+
 ## Constraints
 
 * Mobile-first approach: yes
@@ -45,9 +55,13 @@ __Recommended :__ HTML / CSS
 
 * [BEM](https://css-tricks.com/bem-101/)
 
+## Results of the audit
+
+The results are available [here]()
+
 ## Test the project
 
-To test simply & quickly, please visit the online demo : [lapanther.alexandremagre.com](https://ametudiantoc.github.io/Agence_La_Panthere/)  
+To test simply & quickly, please visit the online demo : [lapanthere.alexandremagre.com](https://ametudiantoc.github.io/Agence_La_Panthere/)  
   
 Otherwise, clone the project  
 `git clone https://github.com/AMetudiantOC/Agence_La_Panthere`
