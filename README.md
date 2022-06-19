@@ -51,13 +51,21 @@ __Recommended :__ HTML / CSS
 * W3C CSS validation: to be passed, warning allowed
 * Compatibility: Latest versions of Chrome, Firefox & Safari
 
+## Competencies assessed
+
+* Write maintainable HTML and CSS code
+* Ensure the accessibility of a website
+* Optimize the size and speed of a website
+* Conduct research on best practices in web development
+* Optimize the referencing of a website
+
 ## Naming convention commit
 
 * [BEM](https://css-tricks.com/bem-101/)
 
 ## Results of the audit
 
-The results are available [here]()
+The results are available [here](https://github.com/AMetudiantOC/Agence_La_Panthere/tree/main/docs/analysis)
 
 ## Test the project
 
